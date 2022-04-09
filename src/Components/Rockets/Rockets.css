@@ -1,0 +1,16 @@
+.rocket-header{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #2D2853;
+opacity: 0.6;
+backdrop-filter: blur(45px);
+}
+.down-btn{
+    background: #2D2853
+}
+.rockets-part{
+    background: rgba(30, 27, 58, 1);
+
+
+}

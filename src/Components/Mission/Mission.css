@@ -1,0 +1,22 @@
+.discover{
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 60px;
+text-align: center;
+margin: 30px;
+color: #FFFFFF;
+}
+.card{
+    background-color:  rgba(35, 30, 68, 1);
+    
+}
+.card:hover{
+    
+background: linear-gradient(95.48deg, #2317FA -1.25%, #D529E4 97.48%);
+box-shadow: 6px 16px 31px 8px rgba(59, 88, 239, 0.15);
+}
+.rocket{
+    height: 250px;
+}

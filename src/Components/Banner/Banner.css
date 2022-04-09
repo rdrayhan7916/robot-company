@@ -1,0 +1,64 @@
+.banner{
+    padding-bottom: 100px;
+    text-align: left;
+    background-color:  rgba(35, 30, 68, 1);
+}
+.welcome{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height, or 150% */
+
+
+background: linear-gradient(95.79deg, #2317FA -33.63%, #D529E4 97.49%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+text-shadow: 6px 16px 31px rgba(59, 88, 239, 0.15);
+margin-top: 40px;
+border-width: 10px;
+border-radius: 6px;
+}
+.banner-1{
+    margin-left: 0px;
+}
+.space{
+    
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 82.6667px;
+line-height: 100px;
+
+color: #FFFFFF;
+
+}
+.at{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+/* or 150% */
+
+
+/* Body 2nd */
+
+color: #DADADA;
+}
+.robot{
+    width: 300px;
+}
+.start-btn{
+    position: relative;
+width: 150px;
+height: 50px;
+top: 20px;
+border-radius: 0px;
+    background: linear-gradient(95.48deg, #2317FA -1.25%, #D529E4 97.48%);
+box-shadow: 6px 16px 31px 8px rgba(59, 88, 239, 0.15);
+}

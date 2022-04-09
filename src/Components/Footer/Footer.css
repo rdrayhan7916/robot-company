@@ -1,0 +1,16 @@
+.subscribe{
+    
+    background: rgba(24, 22, 59, 1);
+}
+.btn{
+    border: 2px solid;
+    border-color: #D529E4;
+
+/* border-image-source: linear-gradient(95.48deg, #2317FA -1.25%, #D529E4 97.48%); */
+
+color: white;
+}
+.icon{
+    color: rgba(91, 91, 91, 1);
+    ;
+}
