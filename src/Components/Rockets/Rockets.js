@@ -12,9 +12,8 @@ const [displayRockets, setDisplayRockets]=useState([])
 const handleSearch =()=>{
   const matcheRocket =rockets.filter(rocket=>rocket.mission_name.toLowerCase().includes(searchText.toLowerCase()))
   setDisplayRockets(matcheRocket)
-  console.log(matcheRocket)
-  console.log(displayRockets)
 }
+
 
 useEffect(()=>{
     fetch('https://api.spacexdata.com/v3/launches')
@@ -34,14 +33,41 @@ useEffect(()=>{
             <Navbar.Brand>Is upcoming?</Navbar.Brand>
             <Navbar.Brand> Yes <button className='down-btn'><NavDropdown  id="navbarScrollingDropdown">
             <Navbar.Toggle aria-controls="navbarScroll" />
-          <NavDropdown.Item >No</NavDropdown.Item>
-        </NavDropdown></button></Navbar.Brand>
+          <NavDropdown.Item >
+            <button> 
+              No
+            </button>
+            </NavDropdown.Item>
+        </NavDropdown>
+        </button>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll responsive-navbar-nav">
         <Navbar.Brand>Launch year?</Navbar.Brand>
         <Navbar.Brand> 2001-2005<button className='down-btn'><NavDropdown  id="navbarScrollingDropdown">
-          <NavDropdown.Item >2001-2005</NavDropdown.Item>
-        </NavDropdown></button></Navbar.Brand>
+          <NavDropdown.Item >
+            <button>
+            1991-1995
+            </button>
+            <button>
+            1996-2000
+            </button>
+            <button>
+            2001-2005
+            </button>
+            <button>
+            2006-2010
+            </button>
+            <button>
+            2011-2015
+            </button>
+            <button >
+            2016-2020
+            </button>
+            </NavDropdown.Item>
+        </NavDropdown>
+        </button>
+        </Navbar.Brand>
     
       <Nav
         className="me-auto my-2 my-lg-0"
